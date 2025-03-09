@@ -18,6 +18,8 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    max-width: 60%;
+    margin: 0 auto;
 }
 
 h3 {
