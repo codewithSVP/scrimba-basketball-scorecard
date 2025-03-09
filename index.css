@@ -1,0 +1,51 @@
+@font-face {
+    src: url('fonts/Scorecard-font.ttf');
+    font-family: Scorecard LCD;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    text-align: center;
+}
+
+#ball-img {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+}
+
+.scorecard {
+    width: 160px;
+    height: 100px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-family: Scorecard LCD;
+    font-size: 90px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+button {
+    font-family: Scorecard LCD;
+    background-color: transparent;
+    color: #9AABD8;
+    font-size: 18px;
+    border: 3px solid #9AABD8;
+    margin: 0 2px 0 2px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
