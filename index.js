@@ -2,18 +2,18 @@ let add1home = document.getElementById('home-add1');
 let add2home = document.getElementById('home-add2');
 let add3home = document.getElementById('home-add3');
 
-let add1guest = document.getElementById('guest-add1');
-let add2guest = document.getElementById('guest-add2');
-let add3guest = document.getElementById('guest-add3');
+let add1Away = document.getElementById('Away-add1');
+let add2Away = document.getElementById('Away-add2');
+let add3Away = document.getElementById('Away-add3');
 
 let homeScoreCount = 0
-let guestScoreCount = 0
+let AwayScoreCount = 0
 
 let homeScore = document.getElementById('home-score');
 homeScore.textContent = homeScoreCount;
 
-let guestScore = document.getElementById('guest-score');
-guestScore.textContent = guestScoreCount;
+let AwayScore = document.getElementById('Away-score');
+AwayScore.textContent = AwayScoreCount;
 
 
 function addOneHome() {
@@ -28,14 +28,14 @@ function addThreeHome() {
     homeScore.textContent = homeScoreCount += 3;
 }
 
-function addOneGuest() {
-    guestScore.textContent = guestScoreCount += 1;
+function addOneAway() {
+    AwayScore.textContent = AwayScoreCount += 1;
 }
 
-function addTwoGuest() {
-    guestScore.textContent = guestScoreCount += 2;
+function addTwoAway() {
+    AwayScore.textContent = AwayScoreCount += 2;
 }
 
-function addThreeGuest() {
-    guestScore.textContent = guestScoreCount += 3;
+function addThreeAway() {
+    AwayScore.textContent = AwayScoreCount += 3;
 }
